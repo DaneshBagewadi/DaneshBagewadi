@@ -169,12 +169,21 @@
 			<div class="color-picker" data-default="#cc3737">
 				<label for="solveColor">Solve Color</label> 
 				<input type="text" class="" id="solveColor" name="solveColor" value="#cc3737" pattern="^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"><div class="color-sample" style="background-color:#cc3737"></div>
-			</div>
+			<!-- </div>
 			<div id="generate">
 				<button id="create-maze" onclick="initMaze();" class='hide'>Generate Maze</button>
+				
 				<button id="solve" onclick="initSolve();" class='hide'>Solve Maze</button>
 				<a href="" class="hide" id="download">download maze</a>
+			</div> -->
 			</div>
+			<div id="generate">
+				    <button id="create-maze" onclick="initMaze();" class='hide'>Generate Maze</button>
+				    <button id="solve" onclick="initSolve();" class='hide'>Solve Maze</button>
+				    <a href="" class="hide" id="download">download maze</a>
+				    <div id="timer" class="hide">Timer: <span id="countdown">90</span> seconds</div>
+			</div>
+
 		</div>
 		<noscript>
 			<p>Sorry... this site requires JavaScript to generate a maze. Please enable it in your browser</p>
